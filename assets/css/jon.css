@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body, html
+{
+	background: #EEE;
+	font-family: "Open-Sans";
+}
+
+footer
+{
+	background: #FF5700;
+	bottom: 0%;
+	color: white;
+	font-family: "Open Sans";
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+footer p, header div
+{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 48%;
+}
+
+footer p:last-child, header div:last-child
+{
+	text-align: right;
+}
+
+header
+{
+	background: #222;
+	text-align: center;
+}
+
+.carita
+{
+	-ms-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+
+.dos-columnas
+{
+	float: left;
+	width: 50%;
+}
+
+.tres-columnas
+{
+	float: left;
+	width: 33%;
+}
+
+.cuatro-columnas
+{
+	float: left;
+	width: 25%;
+}
+
+.redonda
+{
+	border-radius:100%;
+}
+
+.reveal section img
+{
+	border: 0;
+	max-width: 80%;
+}
